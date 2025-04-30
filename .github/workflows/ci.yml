@@ -13,26 +13,33 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Check out the code
     - name: Checkout code
       uses: actions/checkout@v2
 
+      # Set up .NET Core SDK
     - name: Set up .NET Core
       uses: actions/setup-dotnet@v2
       with:
-        dotnet-version: '8.0'  
+        dotnet-version: '8.0'
 
+      # Restore dependencies
     - name: Restore dependencies
       run: dotnet restore ProductApp.sln
 
+      # Build the project
     - name: Build
       run: dotnet build ProductApp.sln --configuration Release
 
+      # Run tests
     - name: Run tests
       run: dotnet test ProductApp.Tests --configuration Release --logger trx
 
+      # Upload test results
     - name: Upload test results
       uses: actions/upload-artifact@v2
       with:
         name: test-results
         path: **/*.trx
+
 
