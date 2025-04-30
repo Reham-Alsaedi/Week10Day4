@@ -19,19 +19,20 @@ jobs:
     - name: Set up .NET Core
       uses: actions/setup-dotnet@v2
       with:
-        dotnet-version: '6.0'  # أو النسخة التي تستخدمها في مشروعك
+        dotnet-version: '8.0'  
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore ProductApp.sln
 
-    - name: Build the project
-      run: dotnet build --configuration Release
+    - name: Build
+      run: dotnet build ProductApp.sln --configuration Release
 
-    - name: Run unit tests
-      run: dotnet test --configuration Release --logger trx
+    - name: Run tests
+      run: dotnet test ProductApp.Tests --configuration Release --logger trx
 
     - name: Upload test results
       uses: actions/upload-artifact@v2
       with:
         name: test-results
-        path: '**/*.trx'
+        path: **/*.trx
+
