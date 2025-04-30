@@ -35,9 +35,9 @@ jobs:
     - name: Run tests
       run: dotnet test ProductApp.Tests --configuration Release --logger trx
 
-      # Upload test results
+      # Upload test results (with updated action version)
     - name: Upload test results
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: test-results
         path: '**/*.trx'
