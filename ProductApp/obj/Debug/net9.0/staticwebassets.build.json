@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "lWXN2Sn8Iv9V9wnhEgieQGuVFe8fJ3+ElzfNdygjw0o=",
+  "Source": "ProductApp",
+  "BasePath": "_content/ProductApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ProductApp/wwwroot",
+      "Source": "ProductApp",
+      "ContentRoot": "/Users/rehamalsaedi/W10D4/ProductApp/wwwroot/",
+      "BasePath": "_content/ProductApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/rehamalsaedi/W10D4/ProductApp/obj/Debug/net9.0/compressed/d8gn5o8bqt-svajspp6s7.gz",
+      "SourceId": "ProductApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/rehamalsaedi/W10D4/ProductApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ProductApp",
+      "RelativePath": "index#[.{fingerprint=svajspp6s7}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/rehamalsaedi/W10D4/ProductApp/wwwroot/index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "rgvsqcoiao",
+      "Integrity": "tWc9bjrnNhaBm9Hk+XPEH335TEzam87lK+p+W8AwYA4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/rehamalsaedi/W10D4/ProductApp/wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/rehamalsaedi/W10D4/ProductApp/wwwroot/index.html",
+      "SourceId": "ProductApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/rehamalsaedi/W10D4/ProductApp/wwwroot/",
+      "BasePath": "_content/ProductApp",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "svajspp6s7",
+      "Integrity": "2G2rGK3hcmUmTJJNC+CvI3Fho3FXIJyppNlPcc2jddw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/rehamalsaedi/W10D4/ProductApp/obj/Debug/net9.0/compressed/d8gn5o8bqt-svajspp6s7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000885739593"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1128"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tWc9bjrnNhaBm9Hk+XPEH335TEzam87lK+p+W8AwYA4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 14:32:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2G2rGK3hcmUmTJJNC+CvI3Fho3FXIJyppNlPcc2jddw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2G2rGK3hcmUmTJJNC+CvI3Fho3FXIJyppNlPcc2jddw="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/rehamalsaedi/W10D4/ProductApp/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2G2rGK3hcmUmTJJNC+CvI3Fho3FXIJyppNlPcc2jddw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 14:32:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2G2rGK3hcmUmTJJNC+CvI3Fho3FXIJyppNlPcc2jddw="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "/Users/rehamalsaedi/W10D4/ProductApp/obj/Debug/net9.0/compressed/d8gn5o8bqt-svajspp6s7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tWc9bjrnNhaBm9Hk+XPEH335TEzam87lK+p+W8AwYA4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 14:32:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tWc9bjrnNhaBm9Hk+XPEH335TEzam87lK+p+W8AwYA4="
+        }
+      ]
+    },
+    {
+      "Route": "index.svajspp6s7.html",
+      "AssetFile": "/Users/rehamalsaedi/W10D4/ProductApp/obj/Debug/net9.0/compressed/d8gn5o8bqt-svajspp6s7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000885739593"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1128"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tWc9bjrnNhaBm9Hk+XPEH335TEzam87lK+p+W8AwYA4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 14:32:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2G2rGK3hcmUmTJJNC+CvI3Fho3FXIJyppNlPcc2jddw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "svajspp6s7"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2G2rGK3hcmUmTJJNC+CvI3Fho3FXIJyppNlPcc2jddw="
+        }
+      ]
+    },
+    {
+      "Route": "index.svajspp6s7.html",
+      "AssetFile": "/Users/rehamalsaedi/W10D4/ProductApp/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2G2rGK3hcmUmTJJNC+CvI3Fho3FXIJyppNlPcc2jddw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 14:32:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "svajspp6s7"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2G2rGK3hcmUmTJJNC+CvI3Fho3FXIJyppNlPcc2jddw="
+        }
+      ]
+    },
+    {
+      "Route": "index.svajspp6s7.html.gz",
+      "AssetFile": "/Users/rehamalsaedi/W10D4/ProductApp/obj/Debug/net9.0/compressed/d8gn5o8bqt-svajspp6s7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tWc9bjrnNhaBm9Hk+XPEH335TEzam87lK+p+W8AwYA4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 14:32:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "svajspp6s7"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tWc9bjrnNhaBm9Hk+XPEH335TEzam87lK+p+W8AwYA4="
+        }
+      ]
+    }
+  ]
+}
